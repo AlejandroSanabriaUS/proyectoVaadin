@@ -42,7 +42,7 @@ public class Cliente implements Serializable, Cloneable{
 
 	@Override
 	public String toString() {
-		return "Cliente [" + nombre  + apellido + "]";
+		return nombre  +" "+ apellido;
 	}
 
 	public Long getId() {

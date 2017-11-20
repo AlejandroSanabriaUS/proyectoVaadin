@@ -66,7 +66,7 @@ public class ClienteService {
 		contactos.remove(cliente.getId());
 	}
 	
-	private void guardar(Cliente cliente) {
+	public void guardar(Cliente cliente) {
 		if(cliente==null)
 			return;
 		else {
