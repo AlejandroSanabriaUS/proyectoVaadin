@@ -26,16 +26,16 @@ public class LibroService {
 	private void generarDatos() {
 		if(findAll().isEmpty()) {
 			Libro libro= new Libro();
-			libro.setAutor("Alejandro Sanabria");
-			libro.setTitulo("El curso de Ayesa me fue bien");
+			libro.setAutor("Patrick Rothfuss");
+			libro.setTitulo("El nombre del Viento");
 			libro.setCliente(null);
 			Libro libro2= new Libro();
-			libro2.setAutor("Cristina Barea");
-			libro2.setTitulo("El curso de Ayesa me fue mal");
+			libro2.setAutor("Patrick Rothfuss");
+			libro2.setTitulo("El temor de un hombre sabio");
 			libro2.setCliente(null);
 			Libro libro3= new Libro();
-			libro3.setAutor("Pedro");
-			libro3.setTitulo("El curso de Ayesa me fue");
+			libro3.setAutor("JRR Tolkien");
+			libro3.setTitulo("El Hobbit");
 			libro3.setCliente(null);
 			guardar(libro);
 			guardar(libro2);
